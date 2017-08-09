@@ -1,0 +1,35 @@
+<div id="bootstrap" class="text-center">
+  <div class="bootstrap-code">
+    <div class="col-xs-12">
+      <div class="form-group">
+        <a (click)="showInput=!showInput">
+          <ng-container *ngIf="!showInput">see</ng-container>
+          <ng-container *ngIf="showInput">hide</ng-container> this input
+        </a>
+      </div>
+
+      <ng-container *ngIf="showInput">
+        <h2>Input</h2>
+        <textarea class="form-control">
+          {{result.input | json}}
+        </textarea>
+      </ng-container>
+      <ng-container *ngIf="!showInput">
+        <h2>Output</h2>
+        <textarea class="form-control">
+          {{result.output | json}}
+        </textarea>
+      </ng-container>
+    </div>
+    <div class="usage">
+      <h3>How to use</h3>
+      <code>
+        &lt;${modname}&gt;&lt;/${modname}&gt;
+      </code>
+    </div>
+  </div>
+  <div class="bootstrap-container">
+    <h2>${classmodname}</h2>
+    <${modname}></${modname}>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.bootstrap {
+  font-size: 12px;
+  display: flex;
+  .bootstrap-container{
+    height: 100vh;
+    width: 70vw;
+    height: 300px;
+    width: 25vw;
+    border: 1px solid #ccc;
+  }
+
+  .bootstrap-code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+    height: 100vh;
+    width: 30vw;
+  }
+}
+
+textarea{
+  height: 5vh;
+  min-height: 300px;
+}
