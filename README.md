@@ -10,10 +10,10 @@ npm install -g yo
 npm install -g generator-gorila-app
 ```
 
-Then generate your new project:
+Then generate your module sample (inside your module folder):
 
 ```bash
-yo gorila-app
+yo gorila-app:mod-sample
 ```
 
 ## Getting To Know Yeoman
