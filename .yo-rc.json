@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Guilherme Gois",
+      "authorEmail": "guilherme.gois@gorilainvest.com.br",
+      "authorUrl": "guilhermejcgois.github.io"
+    }
+  }
+}
